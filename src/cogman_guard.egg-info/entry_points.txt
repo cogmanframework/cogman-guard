@@ -1,0 +1,2 @@
+[console_scripts]
+cogman-guard-quick-test = cogman_tools.quick_cli:main

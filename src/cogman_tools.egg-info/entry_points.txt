@@ -1,2 +1,0 @@
-[console_scripts]
-cogman-tools-quick-test = cogman_tools.quick_cli:main

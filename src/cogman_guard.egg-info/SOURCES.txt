@@ -2,6 +2,12 @@ LICENSE
 README.md
 pyproject.toml
 setup.py
+src/cogman_guard.egg-info/PKG-INFO
+src/cogman_guard.egg-info/SOURCES.txt
+src/cogman_guard.egg-info/dependency_links.txt
+src/cogman_guard.egg-info/entry_points.txt
+src/cogman_guard.egg-info/requires.txt
+src/cogman_guard.egg-info/top_level.txt
 src/cogman_tools/__init__.py
 src/cogman_tools/behavioral_analyzer.py
 src/cogman_tools/eimas_analyzer.py
@@ -9,12 +15,6 @@ src/cogman_tools/embedding_analyzer.py
 src/cogman_tools/embedding_inspector.py
 src/cogman_tools/quick_cli.py
 src/cogman_tools/text_signal_physics.py
-src/cogman_tools.egg-info/PKG-INFO
-src/cogman_tools.egg-info/SOURCES.txt
-src/cogman_tools.egg-info/dependency_links.txt
-src/cogman_tools.egg-info/entry_points.txt
-src/cogman_tools.egg-info/requires.txt
-src/cogman_tools.egg-info/top_level.txt
 src/cogman_tools/providers/__init__.py
 src/cogman_tools/providers/base.py
 src/cogman_tools/providers/claude_provider.py

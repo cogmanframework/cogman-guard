@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: cogman-tools
+Name: cogman-guard
 Version: 0.1.0
 Summary: Operational analysis tools for embeddings & AI systems
 Home-page: https://github.com/yourusername/cogman_tools
@@ -77,35 +77,28 @@ Cogman Tools is designed to answer one critical question for MLOps:
 
 ## 🏗️ System Architecture
 
-```mermaid
-graph TD
-    Input[Input: Raw Embeddings] --> Layer1
-    subgraph "Layer 1: Quality Inspector"
-        Layer1[Physics & Signal Analysis]
-        Layer1 -->|Calc| Entropy[Entropy (H)]
-        Layer1 -->|Calc| Signal[Signal Quality (S)]
-        Layer1 -->|Output| EQI[EQI Score]
-    end
-    
-    Layer1 --> Layer2
-    subgraph "Layer 2: Behavioral Analyzer"
-        Layer2[Baseline Comparison]
-        Layer2 -->|Check| Drift[Concept Drift]
-        Layer2 -->|Check| Anomaly[Anomaly Detection]
-        Layer2 -->|Output| OpStatus[Operational Status]
-    end
-    
-    Layer2 --> Layer3
-    subgraph "Layer 3: EIMAS Core"
-        Layer3[Intelligence Monitoring]
-        Layer3 -->|Monitor| Alerts[Alert System]
-        Layer3 -->|Inspect| Forgery[Forgery/Pattern Detection]
-    end
-    
-    Layer3 --> Output[Output: Report & Dashboard]
-    
-    style Input fill:#f9f,stroke:#333,stroke-width:2px
-    style Output fill:#9f9,stroke:#333,stroke-width:2px
+```
+Input: Raw Embeddings
+        |
+        v
+Layer 1: Quality Inspector
+  - Physics & Signal Analysis
+  - Calculates: Entropy (H), Signal Quality (S)
+  - Output: EQI Score
+        |
+        v
+Layer 2: Behavioral Analyzer
+  - Baseline Comparison
+  - Checks: Concept Drift, Anomaly Detection
+  - Output: Operational Status
+        |
+        v
+Layer 3: EIMAS Core
+  - Intelligence Monitoring
+  - Actions: Alerts, Forgery/Pattern Detection
+        |
+        v
+Output: Report & Dashboard
 ```
 
 ---

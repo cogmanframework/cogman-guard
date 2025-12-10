@@ -439,12 +439,12 @@ class EmbeddingQualityInspector:
         
         # 1. Embedding Signal
         axes[0, 0].plot(physics_dict['signal_wave'][:500])
-        axes[0, 0].set_title('Embedding as Signal (first 500 samples)')
+        axes[0, 0].set_title('Embedding Signal Trace (first 500 samples)')
         axes[0, 0].set_xlabel('Sample')
         axes[0, 0].set_ylabel('Amplitude')
         axes[0, 0].grid(True, alpha=0.3)
         
-        # 2. Quality Metrics
+        # 2. System Health Metrics
         metrics = ['EQI', 'Info Strength', 'Signal Quality', 'Entropy']
         values = [
             physics_dict.get('embedding_quality_index', physics_dict['ΔEΨ_with_H']),
@@ -456,11 +456,11 @@ class EmbeddingQualityInspector:
         for bar, val in zip(bars, values):
             axes[0, 1].text(bar.get_x() + bar.get_width()/2, bar.get_height(),
                            f'{val:.2f}', ha='center', va='bottom', fontsize=8)
-        axes[0, 1].set_title('Quality Metrics')
+        axes[0, 1].set_title('System Health Metrics')
         axes[0, 1].tick_params(axis='x', rotation=45)
         axes[0, 1].grid(True, alpha=0.3)
         
-        # 3. Core Components
+        # 3. Energy Components
         components = ['I/100', 'P', 'S', '1-H']
         comp_values = [
             physics_dict['I']/100 if physics_dict['I'] > 100 else physics_dict['I']/10,
@@ -469,15 +469,15 @@ class EmbeddingQualityInspector:
             1 - physics_dict['H']
         ]
         axes[0, 2].bar(components, comp_values)
-        axes[0, 2].set_title('Core Components')
+        axes[0, 2].set_title('Energy Components')
         axes[0, 2].grid(True, alpha=0.3)
         
-        # 4. Signal Quality Components
+        # 4. Signal Integrity
         if 'S_components' in physics_dict:
             s_comps = list(physics_dict['S_components'].keys())
             s_vals = list(physics_dict['S_components'].values())
             axes[0, 3].bar(s_comps, s_vals)
-            axes[0, 3].set_title('Signal Quality Components')
+            axes[0, 3].set_title('Signal Integrity')
             axes[0, 3].tick_params(axis='x', rotation=45)
             axes[0, 3].grid(True, alpha=0.3)
         
@@ -501,11 +501,11 @@ class EmbeddingQualityInspector:
             axes[1, 0].set_ylabel('Magnitude')
             axes[1, 0].grid(True, alpha=0.3)
         
-        # 7. Phase Space (H vs S)
+        # 7. Entropy vs Signal Quality (Phase Space)
         axes[1, 1].scatter(physics_dict['H'], physics_dict['S'], s=100)
         axes[1, 1].set_xlabel('Entropy (H)')
         axes[1, 1].set_ylabel('Signal Quality (S)')
-        axes[1, 1].set_title('Phase Space: H vs S')
+        axes[1, 1].set_title('Entropy vs Signal Quality (Phase Space)')
         axes[1, 1].grid(True, alpha=0.3)
         
         # 8. Quality vs Stability
