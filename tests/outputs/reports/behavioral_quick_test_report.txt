@@ -1,0 +1,19 @@
+============================================================
+BASELINE BEHAVIORAL ANALYSIS REPORT
+============================================================
+Generated: 2025-12-10T13:45:51.238807
+
+LATEST ANALYSIS:
+----------------------------------------
+Status: UNSAFE
+Confidence: 60.00%
+Reasons:
+  • Moderate anomaly density: 50.00%
+  • Large distribution shift: 13.551
+
+METRICS:
+----------------------------------------
+Anomaly Density: 50.00%
+Stress Index: 2.006
+Cluster Count: 2
+Distribution Shift: 13.551
