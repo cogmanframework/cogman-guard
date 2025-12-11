@@ -1,36 +1,248 @@
-COGMAN PLATFORM LICENSE AGREEMENT
-Version 1.0
+COGMAN-GUARD LICENSE AGREEMENT
+Version 1.0 (Non-Commercial / Evaluation Only)
 
-Copyright (c) 2025 [Your Name or Company Name]. All Rights Reserved.
+Copyright (c) 2025 [Your Name or Company].
+All Rights Reserved. Cogman™ Energetic Intelligence Framework.
 
-1. GRANT OF LICENSE (NON-COMMERCIAL USE)
-   Permission is hereby granted, free of charge, to any person obtaining a copy
-   of this software and associated documentation files (the "Software"), to use
-   the Software for personal, educational, and academic research purposes ONLY.
+IMPORTANT: BY INSTALLING, COPYING, OR USING COGMAN-GUARD (THE "SOFTWARE"), 
+YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE AGREEMENT.
 
-2. COMMERCIAL RESTRICTIONS (THE "NO-REVENUE" CLAUSE)
-   You may NOT use this Software for:
-   (a) Any commercial purpose, including but not limited to, running business operations,
-       licensing, leasing, or selling the Software.
-   (b) Integrating the Software into a product or service that generates revenue.
-   (c) Use by any commercial entity, including corporations and government agencies,
-       for internal production purposes.
+If you do not agree to these terms, do not install or use the Software.
 
-   If you wish to use Cogman Platform for commercial purposes, you must obtain
-   a Commercial License. Please contact: [Your Email Address]
+------------------------------------------------------------
+1. DEFINITIONS
+------------------------------------------------------------
 
-3. INTELLECTUAL PROPERTY & PATENT NOTICE
-   The core algorithms, specifically regarding the "Energetic Intelligence Framework,"
-   "Delta-E-Psi (ΔEΨ) Calculation," "4D Memory Structure," and "No-Embedding Architecture,"
-   are proprietary technologies protected by copyright and pending patents.
-   Reverse engineering for the purpose of creating a competing product is strictly prohibited.
+1.1 "Software" means the Cogman-Guard system, including:
+    - Source code, binaries, scripts, configuration files,
+    - Any Energetic-based inspection modules (e.g. ΔEΨ, 4D Memory hooks),
+    - EIMAS-related analyzers, quality inspectors, behavioral analyzers,
+    - Documentation, examples, and any related materials
+    provided under this Agreement.
 
-4. NO WARRANTY
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+1.2 "Non-Commercial Use" means:
+    - Personal, educational, academic research, or internal experimentation
+      that does NOT directly or indirectly generate revenue, 
+      and is NOT used to operate, improve, or monitor a revenue-generating 
+      product, platform, model, or service.
 
-5. TERM
-   This license is effective until terminated. You may terminate it at any time
-   by destroying the Software. It will also terminate immediately if you fail
-   to comply with any term of this Agreement.
+1.3 "Commercial Use" means ANY use:
+    - In or for a product, platform, or service that generates revenue
+      (directly or indirectly),
+    - By or for a company, startup, research lab, or government entity
+      in production or pre-production environments,
+    - For model monitoring or reliability of systems exposed to 
+      external users/customers,
+    - For the purpose of developing a competing product or service.
+
+1.4 "Energetic Intelligence IP" means all concepts and implementations
+    related to:
+    - ΔEΨ (Delta-E-Psi) energy equation,
+    - 4D Memory / Field-based memory representation,
+    - Energy-Based No-GPU inspection / monitoring,
+    - No-Embedding / Energetic Embedding Interpretation,
+    - EIMAS (Energetic Intelligence Monitoring & Alerting System),
+    - Cogman-Guard, Cogman-Tools, and Cogman™ Energetic Intelligence Framework.
+
+------------------------------------------------------------
+2. GRANT OF LICENSE (NON-COMMERCIAL / EVALUATION)
+------------------------------------------------------------
+
+2.1 Subject to the terms of this Agreement, the Licensor grants you a 
+    limited, personal, non-exclusive, non-transferable, revocable license to:
+
+    (a) Install and use the Software solely for:
+        - Personal learning, experimentation, or academic research,
+        - Internal evaluation of energetic-based monitoring concepts,
+        - Prototyping on non-production, non-revenue systems.
+
+    (b) Modify the Software locally for your own Non-Commercial Use,
+        provided that:
+        - You keep all copyright and license notices intact,
+        - You do NOT redistribute modified versions without written permission.
+
+2.2 No rights are granted to you other than those expressly stated 
+    in this Agreement.
+
+------------------------------------------------------------
+3. COMMERCIAL RESTRICTIONS ("NO-REVENUE" CLAUSE)
+------------------------------------------------------------
+
+3.1 You may NOT use the Software for Commercial Use, including but not limited to:
+
+    (a) Running the Software as part of any production or pre-production
+        system that supports paying users, customers, or clients.
+
+    (b) Embedding the Software (or its core algorithms) into:
+        - SaaS products,
+        - Cloud monitoring / MLOps platforms,
+        - AI observability, logging, or security tools,
+        - Any internal reliability system used by a commercial entity 
+          to support revenue operations.
+
+    (c) Using the Software, its code, or its Energetic Intelligence IP to:
+        - Design, train, or improve a model, framework, or platform
+          that competes with Cogman-Guard, Cogman-Tools, or EIMAS-like systems,
+        - Build an "energy-based monitoring" or "energy-based no-GPU"
+          product for sale, licensing, or enterprise deployment.
+
+    (d) Providing the Software as:
+        - Managed service,
+        - Hosted API,
+        - Plugin/module in a commercial marketplace.
+
+3.2 If you wish to use Cogman-Guard or any Energetic Intelligence IP 
+    for Commercial Use, you MUST obtain a separate written Commercial License.
+
+    Contact: [your-email@example.com]
+
+------------------------------------------------------------
+4. INTELLECTUAL PROPERTY & PATENT NOTICE
+------------------------------------------------------------
+
+4.1 Ownership.  
+    The Software and all Energetic Intelligence IP are and shall remain the 
+    exclusive property of the Licensor, including but not limited to:
+
+    - ΔEΨ (Delta-E-Psi) energy formulation and applications,
+    - 4D / Field-based memory structures and hooks,
+    - Energy-Based No-GPU inspection concepts and implementations,
+    - EIMAS specification and mapping,
+    - Cogman-Guard and Cogman-Tools architectures.
+
+4.2 Protection.  
+    These concepts and implementations are protected by copyright and 
+    may be the subject of patent filings and/or trade secrets.  
+
+4.3 Prohibited Actions.  
+    You may NOT:
+
+    (a) Reverse engineer, disassemble, or decompile the Software 
+        for the purpose of:
+        - Recreating similar Energetic-based monitoring,
+        - Building a competing product or research framework.
+
+    (b) Use the Software, its algorithms, or outputs to train an AI model
+        for the purpose of replicating or approximating Cogman-Guard or 
+        Energetic Intelligence IP.
+
+    (c) Remove, alter, or obscure any copyright, trademark, or IP notices.
+
+------------------------------------------------------------
+5. DATA, TELEMETRY, AND CONFIDENTIALITY
+------------------------------------------------------------
+
+5.1 The Software, as provided, does not require sending data to the Licensor
+    by default. If you implement any remote reporting or logging, you are 
+    solely responsible for privacy and compliance.
+
+5.2 You may not use the Software to attempt to extract or infer proprietary
+    model weights, training data, or confidential information from third-party
+    providers in violation of their terms.
+
+------------------------------------------------------------
+6. NO WARRANTY
+------------------------------------------------------------
+
+6.1 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+    - WARRANTIES OF MERCHANTABILITY,
+    - FITNESS FOR A PARTICULAR PURPOSE,
+    - NON-INFRINGEMENT,
+    - RELIABILITY OR FITNESS FOR SAFETY-CRITICAL SYSTEMS.
+
+6.2 You assume all risk arising from the use, performance, or results of 
+    the Software.
+
+------------------------------------------------------------
+7. LIMITATION OF LIABILITY
+------------------------------------------------------------
+
+7.1 IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY:
+
+    - INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
+    - LOSS OF PROFITS, REVENUE, OR DATA,
+    - BUSINESS INTERRUPTION,
+    - OR CLAIMS BY THIRD PARTIES,
+
+    ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE 
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7.2 The Licensor’s total cumulative liability in connection with the Software
+    shall not exceed the amount (if any) you paid for the license.
+
+------------------------------------------------------------
+8. OUTPUTS, POLICIES, AND RESPONSIBILITY
+------------------------------------------------------------
+
+8.1 The Software provides analytic outputs (quality indices, drift signals, 
+    anomaly alerts, ΔEΨ-derived metrics). These are advisory signals ONLY.
+
+8.2 You are solely responsible for:
+    - How you interpret these metrics,
+    - Any decisions or actions you take based on them,
+    - Any policies, blocking, throttling, or alerts triggered in your systems.
+
+8.3 The Licensor does not guarantee that the Software will:
+    - Detect all failures, attacks, drifts, or anomalies,
+    - Prevent incidents, outages, or damages.
+
+------------------------------------------------------------
+9. OPEN-SOURCE COMPONENTS
+------------------------------------------------------------
+
+9.1 The Software may include or depend on third-party open-source components
+    which are licensed under their own terms (e.g., MIT, Apache, BSD).
+
+9.2 Such licenses continue to govern those components independently, and
+    nothing in this Agreement overrides or replaces those third-party licenses.
+
+------------------------------------------------------------
+10. TERM & TERMINATION
+------------------------------------------------------------
+
+10.1 This Agreement is effective upon your first use of the Software.
+
+10.2 The Licensor may terminate this Agreement immediately if you:
+     - Breach any term of this Agreement,
+     - Use the Software for Commercial Use without valid Commercial License,
+     - Attempt to misrepresent or strip the origin / IP of Energetic 
+       Intelligence Framework.
+
+10.3 Upon termination, you must immediately:
+     - Stop using the Software,
+     - Destroy any copies in your possession or control,
+     - Remove it from all systems and backups under your control 
+       as reasonably practicable.
+
+------------------------------------------------------------
+11. GOVERNING LAW
+------------------------------------------------------------
+
+This Agreement shall be governed by and construed in accordance with the laws 
+of [Your Country / Jurisdiction], without regard to its conflict of law rules.
+
+------------------------------------------------------------
+12. MISCELLANEOUS
+------------------------------------------------------------
+
+12.1 This Agreement constitutes the entire agreement between you and 
+     the Licensor regarding the Software.
+
+12.2 If any provision of this Agreement is held invalid or unenforceable, 
+     the remaining provisions shall remain in full force and effect.
+
+12.3 No failure or delay by the Licensor in enforcing any right shall be 
+     deemed a waiver of such right.
+
+------------------------------------------------------------
+CONTACT FOR COMMERCIAL LICENSE OR SPECIAL PERMISSIONS
+------------------------------------------------------------
+
+For commercial licensing, partnership, or research collaboration, please contact:
+    [Your Name / Organization]
+    Email: [your-email@example.com]
+
+Cogman™ and Cogman-Guard™ are proprietary marks of Pisit Tiewphopum.
+All rights reserved.
